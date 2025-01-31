@@ -3,6 +3,7 @@ import { css } from '@emotion/css';
 import { LinkIconButton } from './LinkIconButton';
 import { TCanvas } from './three/TCanvas';
 import ScrollToTop from './ScrollToTop';
+import Footer from './Footer';
 
 export const App: VFC = () => {
   const homeRef = useRef<HTMLElement>(null);
@@ -54,6 +55,7 @@ export const App: VFC = () => {
         <h1>Contact Section</h1>
         <p>This is the Contact section content...</p>
       </section>
+      <Footer />
     </div>
   );
 };

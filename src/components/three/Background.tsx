@@ -67,7 +67,7 @@ void main() {
   float ml = pow(length(u_mouse), 2.5) * 0.15;
   float n1 = smoothstep(0.0, 0.0 + 0.2, n);
   vec3 color = mix(black, color1, n1);
-  
+
   float n2 = smoothstep(0.1 + ml, 0.1 + ml + 0.2, n);
   color = mix(color, color2, n2);
 
